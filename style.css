@@ -1,0 +1,146 @@
+:root {
+  --border-pt-5: 0.5px solid grey;
+  --padd-1: 1rem;
+  --font-type: calibri;
+  --text-dark: #3f3f3f;
+  --text-grey: #c0c0c0;
+  --text-red: indianred;
+  --text-small: 12px;
+  --text-medium: 16px;
+  --text-big: 20px;
+  --text-large: 24px;
+  --text-huge: 28px;
+  --text-center: center;
+}
+/* --------------- */
+body {
+  padding: 0;
+  margin: 0;
+}
+.login-form-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  font-family: var(--font-type);
+}
+.red-text {
+  color: var(--text-red);
+}
+.login-form-wrapper a {
+  text-decoration: none;
+}
+
+.login-form-col-1 {
+}
+
+.login-form-col-1-banner {
+}
+
+.login-form-col-1-banner-img {
+  width: 100%;
+}
+
+.login-form-col-2 {
+  padding: 0 2rem;
+}
+
+.login-form-row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid lightgray;
+}
+
+.login-form-row-1-a {
+  color: var(--text-dark);
+  font-size: var(--text-big);
+}
+
+.login-form-row-1-b {
+}
+
+.login-form-row-2 {
+  width: 40%;
+  margin: 0 auto;
+  /* border: 0.5px solid grey; */
+  display: grid;
+}
+
+.login-form-row-2 select,
+.login-form-row-2 input,
+.login-form-row-2 button {
+  padding: 8px 12px;
+}
+.login-form-row-2 select {
+  border: 0.5px solid var(--text-grey);
+}
+.login-form-row-2-a {
+  text-align: var(--text-center);
+  font-size: var(--text-big);
+  font-weight: bold;
+}
+.login-form-row-2-b {
+  text-align: var(--text-center);
+  color: var(--text-grey);
+}
+
+.login-form-row-2-c,
+.login-form-row-2-f {
+  display: grid;
+}
+
+.login-form-row-2-d span,
+.login-form-row-2-e span {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+  border: 0.5px solid var(--text-grey);
+  /* padding: 0 0.5rem; */
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.login-form-row-2-d span .fa,
+.login-form-row-2-e span .fa {
+  background-color: var(--text-grey);
+  padding: 0.5rem;
+}
+
+.login-form-row-2-d span input,
+.login-form-row-2-e span input {
+  flex-grow: 1;
+  border: none;
+}
+.login-form-row-2 button {
+  background-color: var(--text-red);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 0;
+  border-radius: 5px;
+}
+.login-form-row-2-g,
+.login-form-row-2-h {
+  text-align: var(--text-center);
+  color: var(--text-grey);
+}
+
+.login-form-row-2 div[class^="login-form-row-2-"] {
+  padding: 0.5rem;
+}
+
+.login-form-row-3 {
+  padding: var(--padd-1);
+}
+
+.login-form-row-3-a {
+  padding: var(--padd-1);
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-small);
+}
+
+.login-form-row-3-b {
+  padding: var(--padd-1);
+  text-align: var(--text-center);
+  font-size: var(--text-small);
+}
